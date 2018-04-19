@@ -1,0 +1,153 @@
+body{
+    background-color: #363333;
+    margin:0;
+    padding:0;
+}
+
+.hidden{
+    display: none;
+}
+
+#character,#weapons {
+    float: left;    
+    height: 110px;
+    background-color: white;
+}
+
+#weapons{
+    width: 550px;
+}
+
+#character{
+    margin-right: 20px;
+    width: 300px;
+}
+
+#choose-gear{
+    margin-right: auto;
+    margin-left: auto; 
+    width: 1100px;
+    height: 100px;
+}
+
+#battle{
+    margin-left: auto; 
+    margin-right: auto; 
+    clear: both;
+    margin-top: 20px;
+    width: 1070px;
+    margin-bottom: 20px;
+}
+
+#battlefield{
+    float: left;
+    background-color: #003300;
+    height: 480px;
+    width: 800px;
+    margin-right: 20px;
+}
+
+#scoreboard{
+    width: 250px;
+    height: 480px;
+    float: left;
+    background-color: pink;
+}
+
+
+#form-div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: 150px;
+    margin-top: -100px;
+    margin-left: -150px;
+    padding: 20px;
+    line-height: 30px;
+    font-family: Arial;
+    background: gray;
+    border-radius: 10px;
+}
+
+td{
+    height: 85px;
+    width: 85px;
+    /*background-color: #003300;*/
+}
+img{
+   height: 50px;
+   margin-left: 5px;
+}
+
+#characters td{
+    height: 75px;
+    width: 75px;
+}
+
+#field{
+    margin: auto;
+    border: 1px solid black; 
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+} 
+
+.hover{
+    background-color: orange;
+}
+
+.clicked{
+    background-color: orange !important;
+}
+
+#info{
+    visibility: hidden;
+    width: 100px;
+    height: 110px;
+    background-color: orange;
+    float: left;
+}
+
+#points{
+    float: left;
+    height: 100px; 
+    width: 100px;
+    background-color: yellow;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+th{
+    padding-left: 5px;
+}
+
+.enemy{
+    background-color: red;
+}
+
+.available-cells{
+    background-color: grey;
+}
+
+#player-score, #enemy-score{
+    
+    height: 200px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: purple;
+    width: 200px;
+    padding: 10px;
+}
